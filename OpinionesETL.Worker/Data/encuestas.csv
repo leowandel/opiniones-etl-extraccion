@@ -1,0 +1,31 @@
+ClienteNombre,ClienteEmail,ProductoNombre,Categoria,Comentario,Calificacion,FechaOpinion
+Maria Perez,maria.perez@mail.com,Laptop Dell XPS 13,Computadoras,"Excelente laptop, muy rápida y la batería dura todo el día",5,2026-01-05
+Juan Gómez,juan.gomez@mail.com,Laptop Dell XPS 13,Computadoras,Buena calidad pero llegó tarde,4,2026-01-12
+Ana Martínez,ana.m@mail.com,Audífonos Sony WH-1000XM5,Audio,Increíble cancelación de ruido. Los recomiendo,5,2026-01-15
+Luis Fernández,luis.f@mail.com,Audífonos Sony WH-1000XM5,Audio,Se dañaron a las dos semanas. Pésimo producto,1,2026-02-03
+Carla Reyes,carla.r@mail.com,Teléfono Samsung Galaxy S24,Celulares,Cumple lo básico nada especial,3,2026-02-10
+Pedro Santana,pedro.s@mail.com,Teléfono Samsung Galaxy S24,Celulares,La cámara es genial y es muy rápido,5,2026-02-18
+Rosa Díaz,rosa.d@mail.com,Monitor LG 27 Pulgadas,Monitores,La pantalla tiene un defecto y el servicio fue lento,2,2026-02-25
+Miguel Castillo,miguel.c@mail.com,Monitor LG 27 Pulgadas,Monitores,Funciona bien para el precio,4,2026-03-02
+Sofía Núñez,sofia.n@mail.com,Teclado Logitech MX Keys,Accesorios,Muy cómodo y fácil de usar,5,2026-03-09
+Jorge Almonte,jorge.a@mail.com,Teclado Logitech MX Keys,Accesorios,Es un teclado normal,3,2026-03-15
+Laura Peña,laura.p@mail.com,Mouse Logitech MX Master 3,Accesorios,Terrible el clic falla constantemente,1,2026-03-21
+Carlos Mejía,carlos.m@mail.com,Mouse Logitech MX Master 3,Accesorios,Perfecto para trabajar. Muy cómodo,5,2026-04-02
+MARIA PEREZ,MARIA.PEREZ@MAIL.COM,laptop dell xps 13,Computadoras,"Excelente laptop,  muy rápida y la batería dura todo el día",5,2026-01-05
+Elena Cruz,elena.c@mail.com,Monitor LG 27 Pulgadas,Monitores,,4,2026-04-05
+Pablo Ruiz,pablo.r@mail.com,Mouse Logitech MX Master 3,Accesorios,Muy bueno,9,2026-04-06
+Diana Soto,diana.s@mail.com,Teclado Logitech MX Keys,Accesorios,Buen producto,4,31/02/2026
+Raúl Vargas,raul.vargas@@mail,Laptop Dell XPS 13,Computadoras,Llegó rápido y bien empacada,4,2026-04-10
+Nina Lara,nina.l@mail.com,,Audio,Muy buenos,5,2026-04-11
+Tomás Báez,tomas.b@mail.com,Teléfono Samsung Galaxy S24,Celulares,Excelente pantalla!!! 😀 ###,5,15/04/2026
+Yesenia Polanco,,Audífonos Sony WH-1000XM5,Audio,Mala experiencia. El sonido es regular,2,2026-04-18
+Iván Ortiz,ivan.o@mail.com,Monitor LG 27 Pulgadas,Monitores,Muy bueno,cinco,2026-04-20
+Gabriela Tavárez,gaby.t@mail.com,Teclado Logitech MX Keys,Accesorios,Excelente producto,5,2027-12-01
+Maria Perez,maria.perez@mail.com,Audífonos Sony WH-1000XM5,Audio,Buen sonido pero algo caros,4,2026-05-03
+Juan Gómez,juan.gomez@mail.com,Monitor LG 27 Pulgadas,Monitores,Decepcionante. Peor compra del año,1,2026-05-10
+Ana Martínez,ana.m@mail.com,Laptop Dell XPS 13,Computadoras,Rápida y útil. Muy satisfecha,5,2026-05-14
+Luis Fernández,luis.f@mail.com,Teclado Logitech MX Keys,Accesorios,Está bien,3,2026-06-01
+Carla Reyes,carla.r@mail.com,Mouse Logitech MX Master 3,Accesorios,Excelente precisión,5,2026-06-08
+Pedro Santana,pedro.s@mail.com,Teléfono Samsung Galaxy S24,Celulares,El teléfono es lento y la batería es mala,2,2026-06-15
+Rosa Díaz,rosa.d@mail.com,Audífonos Sony WH-1000XM5,Audio,Cumplen su función,3,2026-07-01
+Miguel Castillo,miguel.c@mail.com,Laptop Dell XPS 13,Computadoras,Llegó con la pantalla rota. Quiero devolverla,1,2026-07-09
