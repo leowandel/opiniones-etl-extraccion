@@ -4,6 +4,16 @@ public sealed class EtlOptions
 {
     /// <summary>0 = ejecutar una sola vez y cerrar. Mayor que 0 = repetir cada N minutos.</summary>
     public int IntervaloMinutos { get; set; }
+
+    /// <summary>Extraccion, Dimensiones o Todo.</summary>
+    public string Modo { get; set; } = "Dimensiones";
+}
+
+public sealed class DimensionesOptions
+{
+    public DateTime FechaInicio { get; set; } = new DateTime(2020, 1, 1);
+    public DateTime FechaFin { get; set; } = new DateTime(2040, 12, 31);
+    public List<string> Fuentes { get; set; } = new();
 }
 
 public sealed class CsvOptions

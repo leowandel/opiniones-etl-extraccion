@@ -1,4 +1,4 @@
-# Worker Service ETL – Extracción (Actividad 1)
+# Worker Service ETL – Extracción y carga de dimensiones
 
 Sistema de Análisis de Opiniones de Clientes.
 Worker Service en .NET 8 que **extrae** opiniones de tres fuentes y las guarda en las
@@ -57,3 +57,20 @@ dotnet user-secrets set "Fuentes:Api:ApiKey" "<clave>"
 1. Crear una clase que implemente `IExtractor`.
 2. Registrarla en `Program.cs` con `AddSingleton<IExtractor, MiNuevaFuente>()`.
 3. Agregar su sección en `appsettings.json`.
+
+## Carga de dimensiones del DataWarehouse
+Con `Etl:Modo` = `Dimensiones` (valor por defecto) el servicio carga las dimensiones del
+modelo estrella desde las tablas staging, sin repetir datos:
+
+| Dimensión | Clase | Origen |
+|---|---|---|
+| `Clientes` | `ClienteDimensionLoader` | `Staging_EncuestasCSV` y `Staging_ResenasWeb` |
+| `Productos` | `ProductoDimensionLoader` | `Staging_EncuestasCSV` y `Staging_ResenasWeb` |
+| `FuenteDatos` | `FuenteDimensionLoader` | `Dimensiones:Fuentes` en appsettings.json |
+| `Fechas` | `FechaDimensionLoader` | rango `Dimensiones:FechaInicio` a `FechaFin` |
+
+Cada carga limpia y normaliza, valida (nombre, email), elimina repetidos y agrega solo lo que
+no existe. Todo queda registrado en `DW_CargaDimensiones` (se crea sola).
+
+Modos: `Extraccion`, `Dimensiones` o `Todo` (extrae y luego carga las dimensiones).
+Consultas de comprobación: `sql/consultas_dimensiones.sql`.
